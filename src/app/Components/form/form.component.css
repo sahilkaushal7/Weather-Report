@@ -1,0 +1,26 @@
+.form{
+    width:60%;
+    height:40px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.form input[type="text"]{
+    width:80%;
+    background-color: #1e202b;
+    border-radius: 10px;
+    border: 1px solid #1e202b;
+    padding:10px;
+    font-size:15px;
+    float: left;
+}
+
+.form input[type="submit"]{
+    width:10%;
+    float: left;
+    background-color: #009ad8;
+    border-radius: 10px;
+    border: 1px solid #1e202b;
+    padding:10px;
+    font-size:15px;
+}

@@ -1,0 +1,37 @@
+.space{
+    padding:15px;
+}
+.main{
+    margin:auto;
+    background-color: #323544;
+    width:30%;
+}
+
+.top{
+    background-color: #21222680;
+    padding:5px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second{
+    height: 220px;
+    padding:20px;
+}
+.city{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 70px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: bolder;
+    color:white;
+}
+
+.span{
+    color:#88898f;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
