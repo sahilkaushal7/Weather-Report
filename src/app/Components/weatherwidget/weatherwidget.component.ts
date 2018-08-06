@@ -21,5 +21,6 @@ export class WeatherwidgetComponent implements OnInit {
         console.log(res);
       });
   }
+  
 
 }
