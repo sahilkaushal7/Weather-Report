@@ -38,9 +38,6 @@ export class WeatherwidgetComponent implements OnInit {
         this.deg = parseFloat(this.deg.toFixed(2));
         }
         this.weathermain = res.weather[0].main;
-        console.log(res);
-        console.log(this.name);
-        console.log(this.weathermain);
         switch(this.weathermain.toLowerCase()){
           case 'rain': this.imgsrc = '../../../assets//Images/5.png';
           break; 

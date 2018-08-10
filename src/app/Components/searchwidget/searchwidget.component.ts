@@ -25,7 +25,6 @@ export class SearchwidgetComponent implements OnInit {
   ngOnInit() {
     localStorage.setItem('nameOfCity','Hyderabad');
     this.name = localStorage.getItem('nameOfCity');
-    console.log('NG se ' + this.name);
     this.dataService.getData(this.name).subscribe(res=>
       {
         this.city = res.name;
