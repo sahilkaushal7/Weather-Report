@@ -8,16 +8,18 @@ import { AppComponent } from './app.component';
 import { MainSectionComponent } from './Components/main-section/main-section.component';
 import { DataService } from './Services/data.service';
 import { HeaderComponent } from './Components/header/header.component';
-import { FormComponent } from './Components/form/form.component';
 import { WeatherwidgetComponent } from './Components/weatherwidget/weatherwidget.component';
+import { WidgetsComponent } from './Components/widgets/widgets.component';
+import { SearchwidgetComponent } from './Components/searchwidget/searchwidget.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainSectionComponent,
     HeaderComponent,
-    FormComponent,
     WeatherwidgetComponent,
+    WidgetsComponent,
+    SearchwidgetComponent,
     
   ],
   imports: [

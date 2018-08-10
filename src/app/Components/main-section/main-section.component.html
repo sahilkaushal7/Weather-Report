@@ -1,3 +1,15 @@
-<app-header></app-header>
-<app-form></app-form>
-<app-weatherwidget></app-weatherwidget>
+<div class="container-fluid">
+    <app-header></app-header>
+    <div class="row mr-0 ml-0">
+            <div class="col">
+                <input type="submit" (click)="show()" class="form-control btn btn-primary submit" 
+                [value]="value"> 
+            </div>
+    </div>
+    <app-widgets [hidden]="!showDiv"></app-widgets>
+    <div [hidden]="showDiv" class="row mt-4 mr-0 ml-0">
+            <div class="col">
+                <app-searchwidget name="Hyderabad"></app-searchwidget>
+            </div>
+    </div>
+</div>

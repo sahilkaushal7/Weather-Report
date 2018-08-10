@@ -1,0 +1,17 @@
+.container-fluid{
+    padding:0;
+    padding-top:20px;
+    margin:0;
+}
+.form-group{
+    width:60%;
+    height:40px;
+    padding-top: 20px;
+    margin: auto;
+}
+.submit{
+    width:auto;
+    margin:auto;
+    display: block;
+    margin-top:10px;
+}

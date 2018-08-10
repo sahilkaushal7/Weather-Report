@@ -1,4 +1,8 @@
-<div class="card" style="width: 18rem; margin:0 auto;">
+
+<form class="form-group">
+      <input type="text" ngx-google-places-autocomplete #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)" class="form-control" id="usr"><input type="submit" class="form-control btn btn-primary submit" value="Search">
+</form>
+<div class="card" style="margin:75px auto 0 auto;">
     <div class="card-body">
       <h5 class="card-title">{{city}}, {{country}}</h5>
       <p>{{weather}}</p>
@@ -11,4 +15,3 @@
       <p class="card-sm"><img src="../../../assets//Images/icon-wind.png"> {{wind}}</p>
     </div>
  </div>
-
