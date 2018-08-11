@@ -49,8 +49,6 @@ export class SearchwidgetComponent implements OnInit {
           break;
           case 'thunderstorm': this.imgsrc = '../../../assets//Images/9.png';
           break;
-          case 'haze' : this.imgsrc = '../../../assets//Images/16.png';
-          break;
         }
       });
     
