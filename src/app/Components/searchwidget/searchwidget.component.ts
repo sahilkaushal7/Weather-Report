@@ -49,6 +49,8 @@ export class SearchwidgetComponent implements OnInit {
           break;
           case 'thunderstorm': this.imgsrc = '../../../assets//Images/9.png';
           break;
+          case 'mist' || 'haze' :  this.imgsrc = '../../../assets//Images/4.png';
+          break;
         }
       });
     
@@ -56,14 +58,10 @@ export class SearchwidgetComponent implements OnInit {
   @ViewChild("placesRef") placesRef : GooglePlaceDirective;
     
         public handleAddressChange(address: Address) {
-        console.log(address);
-        console.log(address.name);
         if(address.name !== ''){
           this.name=address.name;
           localStorage.setItem('nameOfCity',this.name);
         }
-
-        console.log(this.name);
         this.dataService.getData(this.name).subscribe(res=>
           {
             this.city = res.name;
@@ -87,6 +85,8 @@ export class SearchwidgetComponent implements OnInit {
               case 'drizzle': this.imgsrc = '../../../assets//Images/3.png';
               break;
               case 'thunderstorm': this.imgsrc = '../../../assets//Images/9.png';
+              break;
+              case 'mist' || 'haze' :  this.imgsrc = '../../../assets//Images/4.png';
               break;
             }
           });
